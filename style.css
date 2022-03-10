@@ -428,6 +428,9 @@
 	  animation-delay: 0.9s;
 	}
 	
+	.a3b {
+		animation-delay: 1.2s;
+	}
 	.mainbtnorder {
 	  display: flex;
 	  justify-content: center;
