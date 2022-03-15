@@ -80,7 +80,7 @@
 	  margin: 0;
 	  align-items: center;
 	}
-	.header_indexhtml {
+	.header_indexhtml a {
 	  position: absolute;
 	  left: 30px;
 	  height: 30px;
@@ -476,7 +476,14 @@
 	    align-items: center;
 	    flex-direction: row;
 	  }
-	
+	.info {
+		padding:0px 10px 70px;
+	}
+
+	.info_text {
+		padding-bottom: 0px;
+	}
+
 	  .function_main {
 	    flex: 1;
 	    margin: 0 10px;
