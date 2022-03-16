@@ -220,17 +220,6 @@
 	  color: black;
 	}
 	
-	@keyframes restocard_heart1 {
-	  0% {
-	    opacity: 0;
-	  }
-	  50% {
-	    opacity: 0.5;
-	  }
-	  100% {
-	    opacity: 1;
-	  }
-	}
 
 	.restocard {
 	  display: flex;
@@ -461,13 +450,27 @@
 	}
 	
 	.mainmenu_heart1:hover {
-	  opacity: 1;
 	  background: linear-gradient(to right, #9356DC, #FF79DA);
-	  animation: restocard_heart1 3s linear;
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  animation: restocard_heart1 0.5s linear;
 	  -webkit-background-clip:text;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: bold;
 	}
+	@keyframes restocard_heart1{
+		0%{
+			background-size: 100% 0%;
+		}
+		50%{
+			background-size: 100% 50%;
+		}
+		100% {
+			background-size: 100% 100%;
+	
+		}
+	}
+	
 	
 	@media (min-width: 750px) {
 	  ol {
